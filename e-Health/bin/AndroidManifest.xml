@@ -47,6 +47,24 @@
 	<activity
     	android:name=".EdiagnoseZW">
 	</activity>
+		<activity
+    	android:name=".EdiagnoseZA">
+	</activity>
+		<activity
+    	android:name=".EdiagnoseZP">
+	</activity>
+		<activity
+    	android:name=".EdiagnosePA">
+	</activity>
+		<activity
+    	android:name=".EdiagnosePL">
+	</activity>
+		<activity
+    	android:name=".EdiagnosePP">
+	</activity>
+		<activity
+    	android:name=".EdiagnoseZZ">
+	</activity>
 	
     </application>
 
