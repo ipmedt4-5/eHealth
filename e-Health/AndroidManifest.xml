@@ -65,6 +65,49 @@
 		<activity
     	android:name=".EdiagnoseZZ">
 	</activity>
+		<activity
+    	android:name=".EcareZW">
+	</activity>
+		<activity
+    	android:name=".EcareZA">
+	</activity>
+		<activity
+    	android:name=".EcareZZ">
+	</activity>
+		<activity
+    	android:name=".EcareZP">
+	</activity>
+		<activity
+    	android:name=".EcarePP">
+	</activity>
+		<activity
+    	android:name=".EcarePL">
+	</activity>
+		<activity
+    	android:name=".EcarePA">
+	</activity>
+		<activity
+    	android:name=".EtherapieZW">
+	</activity>
+		<activity
+    	android:name=".EtherapieZA">
+	</activity>
+		<activity
+    	android:name=".EtherapieZZ">
+	</activity>
+		<activity
+    	android:name=".EtherapieZP">
+	</activity>
+		<activity
+    	android:name=".EtherapiePP">
+	</activity>
+		<activity
+    	android:name=".EtherapiePL">
+	</activity>
+		<activity
+    	android:name=".EtherapiePA">
+	</activity>
+	
 	
     </application>
 

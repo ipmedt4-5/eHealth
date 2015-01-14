@@ -3,7 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eZorg>eDiagnose"
+        android:paddingTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
     <TextView
         android:id="@+id/textView1"
         android:layout_width="219dp"
@@ -11,18 +18,22 @@
         android:layout_gravity="center_horizontal"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
-        android:paddingTop="16dp"
         android:text="Zorgverlener in eigen werkcontext"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
         android:id="@+id/result"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingTop="16dp"
+        android:layout_height="wrap_content"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
-          android:layout_gravity="center_horizontal"
+        android:paddingTop="16dp"
         android:text="TextView" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="120dip"
+        android:layout_height="155dip"
+        android:background="@drawable/ehr_button" />
 
 </LinearLayout>

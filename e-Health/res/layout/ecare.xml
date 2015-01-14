@@ -22,7 +22,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="eZorg>eDiagnose"
+        android:text="eZorg>eCare"
         android:layout_gravity="center_horizontal"
         android:textAppearance="?android:attr/textAppearanceSmall" />
     
@@ -33,14 +33,14 @@
      >
 
     <ImageButton
-        android:id="@+id/zwediagnose"
+        android:id="@+id/zwecare"
        	android:layout_width="105dip"
         android:layout_height="125dip"
         android:background="@drawable/zorgverlener_werkcontextbutton"
         android:paddingLeft="16dp" />
 
     <ImageButton
-        android:id="@+id/zzediagnose"
+        android:id="@+id/zzecare"
      	android:layout_width="105dip"
         android:layout_height="125dip"
         android:paddingRight="16dp"
@@ -55,14 +55,14 @@
      android:layout_gravity="center_horizontal"
      >
     	<ImageButton
-        android:id="@+id/zpediagnose"
+        android:id="@+id/zpecare"
    		android:layout_width="105dip"
         android:layout_height="125dip"
         android:background="@drawable/zorgverlener_patientbutton" 
         android:paddingLeft="16dp"/>
     
       	<ImageButton
-        android:id="@+id/zaediagnose"
+        android:id="@+id/zaecare"
    		android:layout_width="105dip"
         android:layout_height="125dip"
         android:background="@drawable/zorgverlener_anderenbutton" 
@@ -76,21 +76,21 @@
     >
     
     <ImageButton
-        android:id="@+id/ppediagnose"
+        android:id="@+id/ppecare"
        android:layout_width="105dip"
         android:layout_height="125dip"
         android:background="@drawable/patient_patientbutton" 
         android:paddingLeft="16dp" />
 
     <ImageButton
-        android:id="@+id/paediagnose"
+        android:id="@+id/paecare"
         android:layout_width="105dip"
         android:layout_height="125dip"
         android:background="@drawable/patient_anderenbutton" 
         android:paddingLeft="16dp" />
 
     <ImageButton
-        android:id="@+id/plediagnose"
+        android:id="@+id/plecare"
        android:layout_width="105dip"
         android:layout_height="125dip"
         android:paddingRight="16dp"
