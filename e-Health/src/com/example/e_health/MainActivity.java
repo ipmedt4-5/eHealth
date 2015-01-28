@@ -30,6 +30,18 @@ public class MainActivity extends Activity{
 		    }
 		});	
 		
+		//button zorgondersteuning
+		Button ezo = (Button) findViewById(R.id.eZorgOndersteuning);
+		ezo.setOnClickListener(new View.OnClickListener() 
+		{
+			public void onClick(View v) 
+			{
+				Intent i = new Intent(MainActivity.this,EzorgOndersteuning.class);
+				startActivity(i);
+				
+			}
+		});
+		
 		//button epublichealth
 		Button eph = (Button) findViewById(R.id.ePublicHealth);
 		eph.setOnClickListener(new View.OnClickListener() 
@@ -41,20 +53,7 @@ public class MainActivity extends Activity{
 				
 			}
 		});
-		/*
-		//button zorgondersteuning
-				Button ezo = (Button) findViewById(R.id.eZorgOndersteuning);
-				eph.setOnClickListener(new View.OnClickListener() 
-				{
-					public void onClick(View v) 
-					{
-						Intent i = new Intent(MainActivity.this,Ezonderondersteuning.class);
-						startActivity(i);
-						
-					}
-				});
-				*/
-				
+	 	
 		//button info
 		ImageButton info = (ImageButton)findViewById(R.id.info);
 		info.setOnClickListener(new View.OnClickListener() {

@@ -14,7 +14,8 @@
         android:allowBackup="true"
         android:icon="@drawable/nictiz_icon2"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/CustomActionBarTheme"
+         >
      <activity
         android:name=".SplashScreen"
         android:label="@string/app_name" >
@@ -26,11 +27,15 @@
      <activity
     	android:name=".Ezorg">
 	</activity>
-	<activity
-    	android:name=".Ediagnose">
-	</activity>
+
 	<activity
     	android:name=".EpublicHealth">
+	</activity>
+	<activity
+    	android:name=".EzorgOndersteuning">
+	</activity>
+	<activity
+    	android:name=".Ediagnose">
 	</activity>
 	<activity
     	android:name=".Ecare">
@@ -106,6 +111,33 @@
 	</activity>
 		<activity
     	android:name=".EtherapiePA">
+	</activity>
+		<activity
+		android:name=".Wwwbutton">
+	</activity>
+	<activity
+		android:name=".EhrButton">
+	</activity>
+	<activity
+		android:name=".HieButton">
+	</activity>
+	<activity
+		android:name=".VidButton">
+	</activity>
+	<activity
+		android:name=".AppButton">
+	</activity>
+	<activity
+		android:name=".RoboButton">
+	</activity>
+	<activity
+		android:name=".SenButton">
+	</activity>
+	<activity
+		android:name=".DomoButton">
+	</activity>
+	<activity
+		android:name=".HelpEzorg">
 	</activity>
 	
 	

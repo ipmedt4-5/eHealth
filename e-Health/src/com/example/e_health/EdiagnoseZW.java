@@ -11,9 +11,12 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.util.Log;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
  
 public class EdiagnoseZW extends Activity {
@@ -102,7 +105,16 @@ Log.e("log_tag", "Error  converting result "+e.toString());
 		Log.e("log_tag", "Error Parsing Data "+e.toString());
  
 }
- 
+	//button ehr
+		ImageButton ehr = (ImageButton) findViewById(R.id.ehrbutton);
+		ehr.setOnClickListener(new View.OnClickListener() 
+		{
+		   public void onClick(View v) 
+			  {
+			    Intent i = new Intent(EdiagnoseZW.this, EhrButton.class);
+			    startActivity(i);
+			   }
+		});	
 }
  
 }

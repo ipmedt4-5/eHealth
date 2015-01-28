@@ -6,5 +6,119 @@
     <string name="action_settings">Settings</string>
     <string name="help">Welkom bij de eHealth app gebaseerd op de werken van Nictiz. Deze applicatie is een vereenvoudigde weergave van de eHealth tabel in "Ordering in de wereld van eHealth (Nictiz 2012)".
 Mocht u niet precies weten wat de tabel inhoudt dan vindt u instructies op deze pagina.</string>
-<string name="ezorg"><b><u>e-Zorg -> e-Care, e-Therapie en e-Diagnose.</u></b></string>
+	
+	<string name="ehealth">
+Deze applicatie is gebaseerd op de whitepaper : “Ordening in de wereld van eHealth” dat gemaakt is door Nictiz in 2012. Alle informatie die in deze applicatie te vinden is komt hieruit.
+\n\ \n\
+Wat wordt er verstaan onder eHealth?\n\ \n\
+Onder eHealth wordt bijvoorbeeld mobiele apps en/of websites voor patiënten, of in andere woorden,  de elektronische uitwisseling van patiëntgegevens tussen zorgverleners. Dus eHealth is een manier om contact tussen patienten en zorgverleners, maar ook onder zorgverleners te verbeteren en te vergemakkelijken.
+\n\ \n\
+Definitie van eHealth: 
+eHealth is het gebruik van nieuwe informatie- en communicatietechnologieën, en met name
+Internet-technologie, om gezondheid en gezondheidszorg te ondersteunen of te verbeteren.
+\n\ \n\
+e-Zorg: \n\
+Onder categorie ‘e-zorg’ valt het primaire zorgproces. Deze categorie wordt nader
+ingedeeld in e-diagnose, e-therapie en e-care.
+\n\ \n\
+e-Zorgondersteuning: \n\
+Onder e-zorgondersteuning vallen processen die het primaire zorgproces ondersteunen.
+Deze categorie wordt nader ingedeeld in e-administratie en e-management en e-quality.
+Onder e-quality valt educatie, beslissingsondersteuning, richtlijnen en
+benchmarkinformatie. Onder e-administratie en e-management valt een reeks van
+werkzaamheden van overwegend administratieve en organisatorische aard.
+\n\ \n\
+e-Public health: \n\
+
+De categorie e-public health heeft te maken met activiteiten op het gebied van preventie
+en voorlichting.
+
+</string>
+<string name="ezorg">Informatie e-Zorg\n\ \n\ 
+
+e-Diagnose \n\ \n\ Een amamnese geven via het internet. Amamnese is wat een patiënt met betrekking tot de voorgeschiedenis en relevante omstandigheden van zijn ziekte of aandoening aan een zorgverlener kan vertellen.
+\n\ \n\ Naslaginformatie en/of beslissingsondersteuning voor hulpverleners.
+\n\ \n\ Intercollegiale consultatie oftewel advies geven aan collega’s of raadplegen bij collega’s.
+\n\ \n\ Diagnoses op afstand. \n\ \n\ e-Therapie \n\ \n\ Medicatie op afstand. Er wordt bijvoorbeeld aangegeven via het internet welke hoeveelheid en op welk tijdstip een patiënt zijn medicijnen moet nemen.
+\n\ \n\ Psychotherapie via internet.\n\ \n\ Telechirurgie. Definitie telechirurgie (Encyclo): “letterlijk het opereren op afstand; d.m.v. moderne telecommunicatietechnieken, eventueel op afstand te bedienen robots, kan een chirurg een collega op een andere plaats instrueren/assisteren bij een operatie of de robot bedienen en zelf de operatie uitvoeren.”
+\n\ \n\ e-Care \n\ \n\ e-Monitoring. \n\ Sociale alarmering. \n\ Patiëntinstructies op afstand.
+</string>
+	<string name="wwwbutton">Voor deze categorie is de uiterlijke presentatievorm het belangrijkste
+indelingscriterium, waarbij het gemeenschappelijke kenmerk is dat hierbij de
+eHealth-toepassing via een webbrowser aan de eindgebruikers (veelal patiënten
+en/of zorgverleners) wordt aangeboden, onafhankelijk van plaats en tijd. Een
+webportaal is daarbij een bijzondere variant van een webapplicatie. In een
+webportaal wordt informatie uit verschillende bronnen op uniforme wijze aan de
+eindgebruiker gepresenteerd wordt of worden verschillende gebruikersfuncties
+op uniforme wijze aangeboden. Patiëntportalen zijn hiervan een goed voorbeeld.
+Er is een breed scala aan gebruiksfuncties mogelijk. Ook educatieportalen voor
+zorgverleners (bv. over medische protocollen) kunnen hiervan een voorbeeld zijn.</string>
+	<string name="ehrbutton">Het belangrijkste indelingscriterium voor deze categorie is niet de
+presentatievorm, maar de primaire functionaliteit van het systeem. Het gaat hier
+om systemen van veelal medisch-administratieve aard waarin zorgverleners
+medische patiëntgegevens registreren, in het algemeen binnen hun eigen
+zorgorganisatie (maar veelal niet beperkt tot één zorglocatie). In de meeste
+eHealth-benchmarks wordt deze categorie van systemen beschouwd als een
+belangrijke eHealth-variant.
+Naast een registratiefunctie kunnen deze systemen ook functionaliteit bieden op
+het gebied van bijvoorbeeld planning of beslissingsondersteuning. In sommige
+gevallen kan de patiënt zelf toegang krijgen tot de ‘eigen’ gegevens in het
+systeem (in dat geval is er vaak sprake met een combinatie met een
+webapplicatie/webportaal). Indien de patiënt zelf ook gegevens kan beheren
+en/of toevoegen, wordt vaak gesproken van een PHR (personal health record),
+waarbij het, afhankelijk van de gebruikte definitie, de patiënt al dan niet de
+primaire gebruiker is (naast de zorgverlener) of zelfs de enige gebruiker.</string>
+	<string name="hiebutton">Bij deze categorie is het belangrijkste indelingskenmerk dat het gaat om
+elektronische netwerken waarover medische informatie wordt uitgewisseld, zoals
+medicatiegegevens en recepten of radiologische beelden. Deze kunnen
+rolspecifiek zijn (bv. gericht op huisartsen of apotheken), locatiespecifiek (bv. voor
+een bepaalde regio) of functiespecifiek (bv. voor één soort gegevens, zoals
+resultaten van landelijke screenings onder de bevolking).</string>
+	<string name="vidbutton">Bij videocommunicatie (ook wel ‘beeldbellen’) wordt een visuele dimensie
+toegevoegd aan de gebruikelijke vormen van telecommunicatie. Doel is een
+versterking van het contact tussen de zorgvrager en de hulpverlener en het
+vergroten van de communicatiemogelijkheden (bijvoorbeeld kunnen zien van
+gelaatsuitdrukkingen). Deze technologievorm laat zich makkelijk combineren met
+andere technologievormen, zoals webapplicaties en mobiele apps.
+Videocommunicatie kan ook worden ingezet bij intercollegiaal consult tussen
+artsen die zich op verschillende locaties bevinden.</string>
+	<string name="domobutton">Domotica is een verzamelnaam voor toepassing van elektronica voor
+automatisering in huis. Het gaat vaak om een combinatie van omgevingsbewuste
+sensoren en actuatoren (apparaat dat de omgeving kan beïnvloeden) waarmee
+het leefklimaat in een woning kan worden geregeld of zaken in de woning
+automatisch kunnen worden bediend. Lang niet alle domotica-toepassingen
+hebben een functie op het gebied van eHealth, maar ze kunnen wel binnen het
+kader van eHealth-oplossingen worden ingezet. Een voorbeeld is sociale
+alarmering, waarbij in het geval van nood vanuit de woning snel contact kan
+worden opgenomen met een hulpverlener.</string>
+	<string name="robobutton">Robots zijn machines die bepaalde taken kunnen verrichten, in het algemeen
+aangestuurd door computersoftware. Ze worden breed ingezet in de
+procesindustrie. Binnen de medische sector wordt robotica o.a. ingezet bij
+minimaal-invasieve chirurgie, waarbij de chirurg door middel van
+‘telemanipulatie’ een robot aanstuurt om de operatie te verrichten. De chirurg
+heeft zo meer controle bij operaties binnen een klein werkgebied. Ook wordt
+geëxperimenteerd met robots in huis om langer thuis wonen van ouderen
+mogelijk te maken. De robots kunnen dan bepaalde taken uit handen nemen (bv.
+stofzuigen) of hebben een sociale functie (denk bv. aan het aanbieden van
+structuur in de dag).</string>
+	<string name="appbutton">Voor deze categorie is eveneens de uiterlijke presentatievorm het belangrijkste
+indelingscriterium, waarbij het belangrijkste kenmerk is dat de toepassing
+beschikbaar wordt gemaakt op een ‘smartphone’ (zoals de iPhone of een
+Android-variant) en/of een tablet-PC (bv. de iPad). Er zijn talloze (semi-)medische
+Apps, vaak gericht op de patiënt/zorgconsument.</string>
+	<string name="senbutton">Het gaat hier om een categorie van apparaatjes die veelal in de thuissituatie van
+patiënten wordt toegepast om vitale lichaamsfuncties te meten (health-sensoren)
+en te verzamelen en door te geven (via een health-gateway) naar een medische
+professional. Voorbeelden van lichaamsfuncties zijn gewicht, bloedsuikerwaarde,
+bloeddruk, stollingswaarde, etc. Deze metingen vinden vaak plaats in het kader
+van bewaking van de gezondheidstoestand van chronisch zieken. Ook
+omgevingsbewuste sensoren kunnen worden ingezet, vaak in het kader van
+langdurige zorg (bv. valdetectiesensoren). We komen dan op het grensvlak met
+domotica (zie verderop in deze tabel).
+Wearable devices (als deze voor medische doeleinden worden toegepast) vormen
+in zekere zin een verbijzondering van de categorie health-sensoren. Het gaat om
+apparaatjes die op het lichaam worden gedragen, meestal verwerkt in kleding of
+accessoires. Er zijn bijvoorbeeld speciale ‘T-shirts’ die nauw aansluiten op het
+lichaam van de drager, waarbij in het shirt allerlei sensoren zijn verwerkt.</string>
+
 </resources>

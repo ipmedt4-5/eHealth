@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class Ezorg extends Activity {
 	
@@ -47,5 +48,15 @@ public class Ezorg extends Activity {
 				    		startActivity(i);
 					}
 				});
+		//button info
+		ImageButton infoz =(ImageButton) findViewById(R.id.infoezorg);
+		infoz.setOnClickListener(new View.OnClickListener() 
+		{
+			public void onClick(View v) 
+			{
+		    		Intent i = new Intent(Ezorg.this, HelpEzorg.class);
+		    		startActivity(i);
+			}
+		});
 		}
 	}

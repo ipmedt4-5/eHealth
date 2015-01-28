@@ -14,7 +14,7 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="219dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:paddingLeft="16dp"
@@ -30,20 +30,38 @@
         android:paddingRight="16dp"
         android:paddingTop="16dp"
         android:text="TextView" />
-    <LinearLayout
+     <TableRow
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal" >
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:paddingLeft="16dp"
+    android:layout_marginTop="16dp"
+    >
 
     <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="120dip"
-        android:layout_height="155dip"
+        android:id="@+id/hiebutton"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
         android:background="@drawable/hie_button" />
      <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="120dip"
-        android:layout_height="155dip"
+        android:id="@+id/vidbutton"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_marginLeft="16dp"
         android:background="@drawable/vid_button" />
-</LinearLayout>
+</TableRow>
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Klik op de knop(pen) voor meer info"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
 </LinearLayout>
